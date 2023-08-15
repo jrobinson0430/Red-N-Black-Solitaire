@@ -1,0 +1,44 @@
+#landingPage {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  background-size: 20rem;
+}
+
+#overlay {
+  background-color: black;
+  background-image: url(../../../public/images/backgrounds/gamesBrick.png);
+  background-size: 20rem;
+  filter: grayscale(50%);
+  opacity: 0.8;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+.landingImg {
+  transition: transform 0.4s ease-in-out 0.2s;
+}
+
+.landingImg:hover {
+  transition: transform 0.3s ease-in;
+  transform: scale(0.98);
+}
+
+.imgContainer {
+  animation: fadeIn 1.3s ease-in;
+  transition: box-shadow 0.4s ease-in-out 0.2s;
+  background-color: gray;
+  border-radius: 50%;
+}
+
+.imgContainer:hover {
+  transition: box-shadow 0.3s ease-in;
+  box-shadow: 0px 0px 5px 5px rgb(132, 188, 250);
+}
+
+#activeBtn {
+  animation: fadeOut 1.3s ease-out;
+  box-shadow: 0px 0px 5px 5px lightgreen;
+  opacity: 0.8;
+}

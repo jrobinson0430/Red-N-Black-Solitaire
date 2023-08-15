@@ -1,0 +1,9 @@
+Navigation Component
+* 
+
+Home Page
+* create a carousel that consists of each game card.
+
+
+Game Page
+* 
