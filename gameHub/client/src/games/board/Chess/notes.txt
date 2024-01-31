@@ -1,0 +1,3 @@
+In the process of converting this game to react. 
+
+got the game board to display correctly, but i don't care for the code. it's ugly and their's definitely a better way to do it. 

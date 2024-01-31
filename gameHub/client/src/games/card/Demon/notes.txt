@@ -1,0 +1,23 @@
+Probably the best known of all solitaire games, Demon is known in the United States as Canfield, after the famous gambler and casino owner Richard A. Canfield, who would 'sell' the pack at $1 per card and pay out $5 for each card in the foundation row at the end of the game, thus making a profit if fewer than 11 cards ended in the foundation row. The game is also known as Facination and Thirteen.
+
+The Play:
+The standard pack of 52 cards is used. After shuffling, 13 cards are dealt face down to a pile known as the heel. The top card is then turned face up. Four cards are dealt face up to the right of this pile to form the tableau. The next card is dealt face up above the first card of the tableau to become the first foundation card. The rank of the first foundation card decides the rank of all foundation cards and the other three cards of that rank are played, as available, above the other tableau cards to form a foundation row.
+
+The object is to build all cards onto the foundations in suits and in ascending order up to Kings and then Aces onwards.
+
+Cards are built onto the tableau piles in descending order of rank and in opposite colors. A tableau pile may be played onto another as a whole unit.
+
+The top card in a tableau pile is available for play to a foundation. If a space in the tableau becomes empty it is filled immediately by the top card of the heel, when the next card in the heel is turned face up.
+
+The cards in the hand are turned up in packets of three at a time, and are played to the table to form the talon. The top card of the talon is available for play to the foundations or to the tableau. It is not mandatory to play a card from the talon- a player might wish to wait for another round. When all the cards in the hand have been played to the talon and all building completed, the talon is turned over and taken into hand again and the process repeated. The hand/talon is never shuffled.
+
+If the heel becomes exhausted, then spaces in the tableau may be filled by the top card in the talon, but not necessarily immediately- a player may wish for a more suitable card to become available.
+
+Play continues until the game is worn or until the whole hand has been played to the talon without it being possible to play any cards to the layout.
+
+TABLE
+1 heel: 13 cards
+1 talon: 0 at start; 3 cards played to talon at a time.
+1 stock: 34 cards
+4 tableau: 1 card each
+4 foundation: 1st starts with 1 card; others 0 cards

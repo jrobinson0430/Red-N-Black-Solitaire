@@ -1,0 +1,13 @@
+                    Golf
+A solitaire game, Golf can also be played as a 'competitive patience or solitaire', if that is not a contradiction! Like the real game, it can be played by one person only, trying to beat 'par'; by two in match-play or medal-play, or for real addicts by any number in medal-play. When played by one player the full 52-card pack is used.
+
+The Play
+Seven cards are dealt face up in a row, with four more rows built upon them and overlapping as in the illustration. This is the tableau consisting of 35 cards, otherwise known as the links.
+
+The remainging 17 cards are held in the hand and are dealt one at a time face up to form a talon, or waste heap
+
+Any card exposed in the bottom row of the links is avaiable to play onto the talon in either ascending or descending order, suits are immaterial. However, sequences are not 'round the corner': only a 2 can be played on an ace, not a king. and a king automatically stops a sequence.
+
+
+NOTES:
+1. need a checkForGameOver function. 

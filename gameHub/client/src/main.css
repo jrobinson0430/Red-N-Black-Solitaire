@@ -1,0 +1,67 @@
+/*  =============================================
+  ================= Resets
+============================================== */
+*,
+*::after,
+*::before,
+p {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+:root {
+  font-size: 1rem;
+  /* Color Palette */
+  --second-triad-color: #3976c0;
+  --second-gradation-color: #80c149;
+  --fourth-gradation-color: #94c369;
+  --key-gradation-color: #76c039;
+}
+
+html,
+body {
+  height: 100vh;
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: lightgray;
+  /* background-image: url(../public/images/backgrounds/background1.jpeg); */
+}
+
+.statContainer {
+  position: relative;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.2rem;
+  box-shadow: ghostwhite 0px 0.5px 2px 1px;
+  box-shadow: var(--second-triad-color) 0px 0.5px 2px 1px;
+}
+
+/*  ===================================
+  ================= Animation
+===================================== */
+
+.fadeInPage {
+  animation: fadeIn 1.3s ease-in;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}

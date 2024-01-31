@@ -1,0 +1,29 @@
+.links {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+
+.links:hover {
+  opacity: 0.7;
+  background-color: orange;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.navBtn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 5rem;
+  cursor: pointer;
+}
+
+.navBtn:hover {
+  border-radius: 50%;
+  transition: box-shadow 0.3s ease-in;
+  box-shadow: 0px 0px 5px 5px rgb(132, 188, 250);
+}

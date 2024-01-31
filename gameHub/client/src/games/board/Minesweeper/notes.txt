@@ -1,0 +1,48 @@
+
+TODO:
+1. need a game over compoent that tells user whether they won the game or not.    I'm waiting until i set up the back end before adding.
+
+2. game data that should be tracked include: difficulty, total time, clicks (maybe?)
+
+
+
+this is a proccessGameMove function that utilizes a one-dimensional array. It works just like the current function. If i want to use it, i have to convert the gameBoard component to utilize it.
+
+const processGameMove = (field) => {
+  let runAgain = false;
+
+  const newField = field.flat().map((square) => {
+    const [rowIdx, colIdx] = square.coordinates.split('-');
+
+    const isHidden = !square.isShowing;
+    const isMine = square.value === '*';
+
+    if (isHidden && square.value !== 0) return square;
+    if (isHidden && !isMine) return square;
+
+    const checkLocations = gameModule.getCheckCoordinates(
+      rowIdx,
+      colIdx,
+      field
+    );
+
+    const checkSquares = field
+      .flat()
+      .filter((obj) => checkLocations.includes(obj.coordinates));
+
+    checkSquares.forEach((sq) => {
+      if (!sq) return;
+      if (sq.value !== '*' && !sq.isShowing && square.value === 0) {
+        sq.isShowing = true;
+        runAgain = true;
+      }
+    });
+    return square;
+    return row;
+  });
+
+  console.log(newField);
+  return runAgain ? processGameMove(newField) : newField;
+};
+
+

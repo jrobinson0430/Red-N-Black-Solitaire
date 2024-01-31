@@ -1,0 +1,47 @@
+input {
+  color: black;
+  font-weight: 600;
+}
+
+input:focus-visible {
+  background-color: lightgreen;
+}
+
+.square {
+  background-color: ghostwhite;
+  padding: 1.2rem 0;
+  border: 1px solid darkslategrey;
+}
+
+.staticNums {
+  color: black;
+  font-weight: 600;
+  filter: sepia(100%);
+  font-style: italic;
+  background-color: #f8f9fa;
+}
+
+/* ************Utility************ */
+
+.rightBorder {
+  border-right: 3px solid black;
+}
+
+.bottomBorder {
+  border-bottom: 3px solid black;
+}
+
+.leftBorder {
+  border-left: 3px solid black;
+}
+
+.topBorder {
+  border-top: 3px solid black;
+}
+
+/* ************Media Queries************ */
+@media screen and (max-width: 515px) {
+  .square {
+    padding: 1rem 0;
+  }
+}

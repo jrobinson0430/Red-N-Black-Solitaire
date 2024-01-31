@@ -1,0 +1,5 @@
+SUDOKU NOTES
+1. Hint button is showing but functionality has not been written yet.
+2. GameWon component: using a game specific component on the Gameboard component. i believe i can get rid of this and use the shared GameWon component. also should move it to the top level of the game and use a displayGameWon boolean to remain consistent with the other games. 
+
+3. GameBtns: i am using a local GameBtns component when i have a global component that should be able to work for this game as well. need to convert it. 

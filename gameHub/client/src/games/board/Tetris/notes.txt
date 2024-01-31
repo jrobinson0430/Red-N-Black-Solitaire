@@ -1,0 +1,25 @@
+
+
+TODO
+
+1. When moving the pieces left or right sometimes the piece is allowed to move  to soon causing it to overlap a pieces that are already on the board.
+  --> try to add another conditional variable that runs an extra check when the isblocked boolean is true.. the check would be for the previous row as well as the current row.
+
+2. When rotating a piece, need to determine which squares to check per piece per rotation. Is there a pattern for all pieces or are the individual pieces going to have to be dealt with separately?
+  --> think of checking the pieces next rotation and then determining which shift you will need to check for that piece (left, right, bottom)
+
+3. Write a function that checks the board to see if any one row is completely full. if true, remove pieces from that row and shift the board to 'fall-in' and fill the empty line in.
+  --> keep in mind that the functions speed may become a factor in the smoothness of the game at certain levels.
+  --> would a reduce lookup be a possible solution or would a regular loop be more efficient bc you could have a condition that skips the rest of the rows blocks once 1 is found to be empty of a color? 
+
+
+
+FEATURE IDEAS
+
+1. Mirror Piece: as a piece is falling, have a 'mirror' piece along the bottom that allows the player to see where it would be placed if auto dropped.
+
+2. Save Piece: allow user to save the current piece falling for later use. At the start of the game this spot would be empty. once an initial piece is placed in this location, the next one to be added would be swapped with the piece currently holding that position.
+
+3. Show Next: show the user the next piece in line to be played to board.
+
+4. Speed up: on a keypress, allow the piece to be temporarily sped up

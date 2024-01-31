@@ -1,0 +1,22 @@
+                            Accordion
+Accordion is one of the simplest of one-pack solitaire games. it has no tableau. The object is to finish the game with all of the cards in one pack.
+
+The Play
+One pack is used. The cards are shuffled and turned over one at a time from hand. The  first card is dealt to the top left of the space available. the second card is dealt to its right and rows of the cards are to be considered, if necessary, as one long continuous line.
+
+if a card matches its left-hand neighbor in suit or rank it can be packed upon it. similarly, if it matches the card third to the left (ie. jumping two) it can be packed upon it. sometimes a card is dealt which can be packed in either of these places, when the player must choose which is more advantageous. often one such move will make another possible. A move should always be made when possible.
+
+the object is to finish the game with all of the cards in one pack. sometimes the game can be frustrating, with a long line of single unmatching cards building up. sometimes the number of piles never exceeds half a dozen or so. sometimes the line goes backwards and forwards, like the accordion from which the game takes its name.
+
+
+********************** Thoughts and such ***************************
+----- deck.js
+
+This game is different from the rest of the solitaire games i have built in the fact that all cards are displayed on the screen at one time in one continuous line. That means that they are all showing there faces and are all draggable (even if they cant make a valid move in there current position). Therefore i have removed the isShowingFace and isDraggable properties from the card objects themselves. They are not needed in this particular game.
+
+i have also removed the position property from teh card obj as well because i am tracking the location of the piles in a multi-dimensional rray instead of seperate properies within the table data structure as i normally would. This is because all the cards are technically printed on just the tableau. The 'piling' is tracked with the multi-dimensional array.
+
+since i dont have to dynamically set the card properties that are removed for this game, i dont even have a setCardProps FN in the deck.js bc it is no longer needed.
+
+
+

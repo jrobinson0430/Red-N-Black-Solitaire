@@ -1,16 +1,17 @@
 import { useState } from "react";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import * as Pages from "./pages";
-// import { Navigation } from "./components";
+import { Navigation } from "./components";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./main.css";
 
+
 const App = () => {
   const [showLandingBtn, setShowLandingBtn] = useState();
-
+  const location = useLocation()
   return (
     <>
-      {/* <Navigation/> */}
+      {location.pathname !== '/' && <Navigation />}
       <Routes>
         <Route
           path="/"

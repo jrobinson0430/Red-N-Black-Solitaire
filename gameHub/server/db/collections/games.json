@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Minesweeper",
+    "rules": "The goal of the game is to uncover all the squares that do not contain mines without being 'blown up'. Clicking on the game board will reveal what is hidden underneath the chosen square (a large number of blank squares may be revealed in one go if they are adjacent to each other). Some squares are blank but some contain numbers (1-8), each number being the number of mines adjacent to the uncovered square. To help avoid hitting a mine, the location of a suspected mine can be marked by a flag by right clicking on the square. The game is won once all blank squares have been uncovered without hitting a mine.",
+    "blurb": "Clear a board containing hidden 'mines' without detonating any of them, with help from clues about the number of neighboring mines in each field.",
+    "photo": "./images/gameShots/minesweeperPic.png",
+    "path": "/minesweeper",
+    "gamesPlayed": 0
+  },
+  {
+    "name": "Red N Black Solitaire",
+    "rules": "The top cards in the tableau (middle row) are available for play to the foundations (top row) or to the other cards in the tableau. The foundations are built up by suit (Ace to Kings) while the cards on the tableau are built down, by alternating color (card suit is irrelevant on the tableau). Any spaces in the tableau are immediately filled by the top card of the wastepile (bottom row, right pile), or if none are present, the top card of the stock (bottom row, left pile). The stock is dealt one card at a time (by clicking on the stock pile) onto the wastepile, the top card of which is available for play to the tableau or the foundations. The game is won when all cards are built onto the foundation piles.",
+    "blurb": "A solitaire card game that uses two decks of playing cards. The game is so called because all building is done in alternating colors of red and black. It is not related to another similarly named solitaire game of Rouge et Noir (French for red and black), although Red and Black can also be known under that name.",
+    "photo": "./images/gameShots/redNBlackPic.jpg",
+    "path": "/redNBlack",
+    "gamesPlayed": 0
+  },
+  {
+    "name": "Klondike Solitaire",
+    "rules": "The 4 foundation piles (top right) are built up by suit (Ace to King) and the 7 tableau piles (bottom row) can be built down by alternating colors, and partial or complete piles can be moved if they are built down by alternate colors also. Any empty piles in the tableau can only be filled with a King or a pile of cards with a King. The game s won when all cards are built onto the foundation piles.",
+    "blurb": "Klondike is a patience game (solitaire card game). In the U.S. and Canada, Klondike is known as solitaire, being one of the better known of the family of patience games. The game rose to fame in the late 19th century, being named 'Klondike' after the Canadian region where a gold rush happened. It is rumored that the game was either created or popularized by the prospectors in Klondike.",
+    "photo": "./images/gameShots/klondikePic.jpg",
+    "path": "/klondike",
+    "gamesPlayed": 0
+  },
+  {
+    "name": "Sudoku",
+    "rules": "The objective is to fill the board with digits so that each column, each row, and each of the nine 3 by 3 subgrids that compose the board contains all of the digits from 1 to 9. You should not have any numbers appearing more than once for any given vertical line, horizontal line or within each 3 by 3 subgrid.",
+    "blurb": "A logic-based combinatorial number-placement puzzle. The objective is to fill a 9 by 9 grid with digits so that each column, each row, and each of the nine 3 by 3 subgrids that compose the grid contains all of the digits from 1 to 9.",
+    "photo": "./images/gameShots/sudokuPic.png",
+    "path": "/sudoku",
+    "gamesPlayed": 0
+  },
+  {
+    "name": "Calculation Solitaire",
+    "rules": "Any ace, 2, 3, 4 are placed in a row as foundation cards (suits have no significance in Calculation). The object is to pile all the cards on these foundations. Cards are built on the foundation cards as follows: on the ace, singly; on the two at intervals of two; on the three at intervals of three; and on the four at intervals of four. The cards in the pack are turned over from the hand one at a time. They can be played to a foundation, or to any of four waste piles below each foundation. These waste piles can be arranged so that eacch card can be seen. The top card of each waste pile is available for play to a foundation pile at any time. The secret is to try to play onto the waste piles in descending sequences so that when a card becomes available to the foundation others will follow.",
+    "blurb": "Calculation is a one-pack solitaire with a high skill factor. It is also called Broken Intervals.",
+    "photo": "./images/gameShots/klondikePic.jpg",
+    "path": "/calculation",
+    "gamesPlayed": 0
+  },
+  {
+    "name": "Golf Solitaire",
+    "rules": "35 cards are dealt face up to the tableau while the remaining 17 cards are held in the stock pile. Any card exposed in the bottom row of the links (tableau) is available to play onto the talon (waste) in either ascending or descending order, suits are immaterial. However, sequences are not 'round the corner': only a 2 can be played on an ace, not a king. Cards are taken from the stock one at a time until they are gone. No redeals are allowed. The goal is to clear the tableau of all cards.",
+    "blurb": "A single player solitaire game where you are trying to beat 'par'. Seven cards are dealt face up in a row, with four more rows built upon them and overlapping. This is the tableau consisting of 35 cards, otherwise known as the links.",
+    "photo": "./images/gameShots/klondikePic.jpg",
+    "path": "/golf",
+    "gamesPlayed": 0
+  },
+  {
+    "name": "Demon Solitaire",
+    "rules": "The object is to build all cards onto the foundations in suits and in ascending order up to Kings and then Aces onwards. Cards are built onto the tableau piles in descending order of rank and in opposite colors. A tableau pile may be played onto another as a whole unit. The top card in a tableau pile is available for play to a foundation. If a space in the tableau becomes empty it is filled immediately by the top card of the heel, when the next card in the heel is turned face up. The cards in the hand are turned up in packets of three at a time, and are played to the table to form the talon. The top card of the talon is available for play to the foundations or to the tableau. It is not mandatory to play a card from the talon- a player might wish to wait for another round. When all the cards in the hand have been played to the talon and all building completed, the talon is turned over and taken into hand again and the process repeated. The hand/talon is never shuffled. If the heel becomes exhausted, then spaces in the tableau may be filled by the top card in the talon, but not necessarily immediately- a player may wish for a more suitable card to become available. Play continues until the game is worn or until the whole hand has been played to the talon without it being possible to play any cards to the layout.",
+    "blurb": "Probably the best known of all solitaire games, Demon is known in the United States as Canfield, after the famous gambler and casino owner Richard A. Canfield, who would 'sell' the pack at $1 per card and pay out $5 for each card in the foundation row at the end of the game, thus making a profit if fewer than 11 cards ended in the foundation row. The game is also known as Facination and Thirteen.",
+    "photo": "./images/gameShots/redNBlackPic.jpg",
+    "path": "/demon",
+    "gamesPlayed": 0
+  },
+  {
+    "name": "Accordion Solitaire",
+    "rules": "If a card matches its left-hand neighbor in suit or rank it can be packed upon it. Similarly, if it matches the card third to the left (ie. jumping two) it can be packed upon it. Sometimes a card is dealt which can be packed in either of these places, where the player must choose which is more advantageous. Often one such move will make another possible. A move should always be made when possible. The object is to finish the game with all of the cards in one pack.",
+    "blurb": "Accordion is one of the simplest of one-pack solitaire games. it has no tableau. One pack is used. The cards are shuffled and turned over one at a time from hand. The  first card is dealt to the top left of the space available. the second card is dealt to its right and rows of the cards are to be considered, if necessary, as one long continuous line. The object is to finish the game with all of the cards in one pack.",
+    "photo": "./images/gameShots/redNBlackPic.jpg",
+    "path": "/accordion",
+    "gamesPlayed": 0
+  },
+  {
+    "name": "FreeCell Solitaire",
+    "rules": "rules TBD",
+    "blurb": "FreeCell is a solitaire-based card game played with a 52-card standard deck. It is fundamentally different from most solitaire games in that very few hands are unsolvable.",
+    "photo": "./images/gameShots/redNBlackPic.jpg",
+    "path": "/freeCell",
+    "gamesPlayed": 0
+  },
+  {
+    "name": "Chess",
+    "rules": "rules TBD",
+    "blurb": "Chess is a two-player strategy board game played on a chessboard, a checkered gameboard with 64 squares arranged in an 8Ã8 grid. Chess is played by millions of people worldwide",
+    "photo": "./images/gameShots/redNBlackPic.jpg",
+    "path": "/chess",
+    "gamesPlayed": 0
+  }
+]

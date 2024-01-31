@@ -1,0 +1,32 @@
+[{
+	"_id" : {"$oid":"64121ba6ef5230f74e87ff11"},
+	"userName" : "thurmanator",
+	"email" : "bthurman@gmail.org",
+	"password" : "$2b$10$awZgJlrqDyqNwxQzG.qWS.w6sl2X4JiTbdpILPmjyWfY7QehGa8Oy",
+	"theme" : {"$oid":"64121ba6ef5230f74e87ff0f"},
+	"highScores" : [
+    {"_id" : {"$oid": "64130678c4867598efb506d7"}, "email" : "bthurman@gmail.org", "userName" : "thurmanator", "gameName" : "redNBlack", "points" : 1290, "time" : "801", "moves" : 257, "__v" : 0},
+    {"_id" : {"$oid": "64130678c4867598efb506d8"}, "email" : "bthurman@gmail.org", "userName" : "thurmanator", "gameName" : "redNBlack", "points" : 1255, "time" : "1504", "moves" : 321, "__v" : 0},
+    {"_id" : {"$oid": "64130678c4867598efb506d9"}, "email" : "bthurman@gmail.org", "userName" : "thurmanator", "gameName" : "redNBlack", "points" : 1155, "time" : "1042", "moves" : 299, "__v" : 0},
+    {"_id" : {"$oid": "64130678c4867598efb506d6"}, "email" : "bthurman@gmail.org", "userName" : "thurmanator", "gameName" : "redNBlack", "points" : 1155, "time" : "600", "moves" : 276, "__v" : 0},
+    {"_id" : {"$oid": "64130678c4867598efb506d5"}, "email" : "bthurman@gmail.org", "userName" : "thurmanator", "gameName" : "redNBlack", "points" : 1200, "time" : "751", "moves" : 281, "__v" : 0}
+		
+	],
+	"__v" : 0
+},
+{
+	"_id" : {"$oid": "64132177409063d244433203"},
+	"userName" : "Jrob0430",
+	"email" : "jrobinson@gmail.com",
+	"password" : "$2b$10$zx65UjOUHpH3URdAGNGtA.ekrtg/Jf.JBwXQn07Ln07ZnmD2QWIj6",
+	"theme" : {"$oid": "64132177409063d244433201"},
+	"highScores" : [
+    {"_id" : {"$oid": "64132344409063d244433208"},"email" : "jrobinson@gmail.com","userName" : "Jrob0430","gameName" : "redNBlack","points" : 1290,"time" : "529","moves" : 254,"__v" : 0},
+    {"_id" : {"$oid": "64132344409063d244433209"},"email" : "jrobinson@gmail.com","userName" : "Jrob0430","gameName" : "redNBlack","points" : 1245,"time" : "559","moves" : 275,"__v" : 0},
+    {"_id" : {"$oid": "64132344409063d244433210"},"email" : "jrobinson@gmail.com","userName" : "Jrob0430","gameName" : "redNBlack","points" : 1190,"time" : "845","moves" : 254,"__v" : 0},
+    {"_id" : {"$oid": "64132344409063d244433211"},"email" : "jrobinson@gmail.com","userName" : "Jrob0430","gameName" : "redNBlack","points" : 1185,"time" : "845","moves" : 301,"__v" : 0},
+    {"_id" : {"$oid": "64132344409063d244433212"},"email" : "jrobinson@gmail.com","userName" : "Jrob0430","gameName" : "redNBlack","points" : 1160,"time" : "926","moves" : 414,"__v" : 0}
+	],
+	"__v" : 0
+}
+]

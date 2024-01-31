@@ -1,0 +1,24 @@
+/* body {
+  background-color: lightskyblue;
+} */
+
+/******************Tracker******************/
+.numContainer {
+  margin: 0 0.2rem;
+  background-color: skyblue;
+  border: 1px solid black;
+  padding: 0rem 1rem;
+  border-radius: 0.2rem;
+}
+
+.numHeading {
+  text-decoration: underline;
+}
+
+/***********************Utility***********************/
+.highlight_red {
+  background-color: salmon;
+}
+.highlight_grn {
+  background-color: lightgreen !important;
+}

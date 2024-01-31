@@ -1,0 +1,86 @@
+.dimensions {
+  width: 2.2rem;
+  height: 2.2rem;
+  box-shadow: 0rem 0rem 1px 1px;
+  border: 1px solid black;
+}
+
+.mineSquare {
+  cursor: pointer;
+  background-color: #a9a9a9;
+
+  box-shadow: 0px 0px 2px 1px ghostwhite;
+}
+
+.mineSquare:hover {
+  box-shadow: 0px 0px 3px 0px black;
+  transform: scale(0.93);
+}
+
+.mineSquare:active {
+  box-shadow: 0px 0px 4px 1px black;
+  transform: scale(0.88);
+}
+
+/*for mineSquares that are wrongly marked on game loss*/
+.badFlag {
+  background-size: contain;
+  background-image: url(../../../../../../public/images/minesweeper/xFlag.png);
+  background-repeat: no-repeat;
+  background-color: lightcoral;
+}
+
+.one {
+  background-position: 0.79rem 0.1rem;
+}
+.two {
+  background-position: -0.68rem 0.1rem;
+}
+.three {
+  background-position: -2.09rem 0rem;
+}
+.four {
+  background-position: -3.7rem 0rem;
+}
+.five {
+  background-position: -6.2rem 0rem;
+}
+.six {
+  background-position: -7.7rem 0.3rem;
+}
+.seven {
+  background-position: -9.19rem 0rem;
+}
+.eight {
+  background-position: -10.66rem 0.25rem;
+}
+.empty {
+  background-position: 2.6rem 0rem;
+}
+.flag {
+  background-color: orange !important;
+  background-position: -12.7rem 0.3rem;
+}
+.bgGreen {
+  background-color: lightgreen !important;
+}
+
+.mine {
+  background-color: lightgoldenrodyellow;
+  background-position: -15.05rem 0.1rem;
+}
+.redBomb {
+  background-image: url(../../../../../../public/images/minesweeper/xBomb.png);
+  background-position: 0.2rem 0rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/*  =============================================
+  ================= Background Images
+============================================== */
+.bgImg {
+  background-image: url(../../../../../../public/images/minesweeper/numbers.png);
+  background-repeat: no-repeat;
+  background-color: #cbd2d2;
+}

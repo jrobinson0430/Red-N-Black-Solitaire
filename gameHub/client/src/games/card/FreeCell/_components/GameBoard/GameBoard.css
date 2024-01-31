@@ -1,0 +1,26 @@
+.freeCellCardContainer {
+  width: 5.1rem;
+  margin: 0.3rem;
+}
+
+@media screen and (max-width: 599px) {
+  .freeCellCardContainer {
+    width: 3.6rem;
+    height: 4.8rem;
+    margin: 0.1rem;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 720px) {
+  .freeCellCardContainer {
+    width: 4.1rem;
+    height: 5.5rem;
+  }
+}
+
+@media screen and (min-width: 721px) and (max-width: 900px) {
+  .freeCellCardContainer {
+    width: 4rem;
+    height: 5.4rem;
+  }
+}

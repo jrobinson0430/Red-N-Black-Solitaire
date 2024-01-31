@@ -1,0 +1,22 @@
+                          Calculation Solitaire Game
+Calculation is a one-pack solitaire with a high skill factor. It is also called Broken Intervals.
+
+Any ace, 2, 3, 4 are placed in a row as foundation cards (suits have no significance in Calculation). The object is to pile all the cards on these foundations
+
+Cards are built on the foundation cards as follows: on the ace, singly; on the two at intervals of two; on the three at intervals of three; and on the four at intervals of four.
+
+ Four completed foundation piles would thus contain these cards.
+
+ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, jack, queen, king
+2, 4, 6, 8, 10, queen, ace, 3, 5, 7, 9, jack, king
+3, 6, 9, queen, 2, 5, 8, jack, ace, 4, 7, 10, king
+4, 8, queen, 3, 7, jack, 2, 6, 10, ace, 5, 9, king
+
+** Notice all four piles end with a king
+
+The Play:
+The cards in the pack are turned over from the hand one at a time. They can be played to a foundation, or to any of four waste piles below each foundation. These waste piles can be arranged so that eacch card can be seen. The top card of each waste pile is available for play to a foundation pile at any time. The secret is to try to play onto the waste piles in descending sequences so that when a card becomes available to the foundation others will follow.
+
+
+NOTES:
+1. 

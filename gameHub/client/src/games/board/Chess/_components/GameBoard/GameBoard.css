@@ -1,0 +1,173 @@
+/*  ============================================================
+  ================= PIECES
+============================================================= */
+.piece {
+  background-image: url(../../../../../../public/images/chess/chessPieces.png);
+}
+
+/*  ========================================
+  ================= white
+========================================= */
+.whitepawn {
+  background-position: -0.1rem -0.1rem;
+}
+.whiterook {
+  background-position: 18.2rem -0.1rem;
+}
+.whiteknight {
+  background-position: 14.5rem -0.1rem;
+}
+.whitebishop {
+  background-position: 10.7rem -0.1rem;
+}
+.whiteking {
+  background-position: 7rem -0.1rem;
+}
+.whitequeen {
+  background-position: 3rem -0.1rem;
+}
+
+/*  ========================================
+  ================= black
+========================================= */
+.blackpawn {
+  background-position: -0.2rem 3.2rem;
+}
+.blackrook {
+  background-position: 18.15rem 3.2rem;
+}
+.blackknight {
+  background-position: 14.4rem 3.2rem;
+}
+.blackbishop {
+  background-position: 10.6rem 3.2rem;
+}
+.blackking {
+  background-position: 6.9rem 3.2rem;
+}
+.blackqueen {
+  background-position: 3rem 3.15rem;
+}
+
+.light {
+  width: 3rem;
+  height: 3rem;
+  background-color: ghostWhite;
+  border: 1px solid gray;
+}
+
+.dark {
+  width: 3rem;
+  height: 3rem;
+  background-color: silver;
+  border: 1px solid gray;
+}
+
+/*  ============================================================
+  ================= BOARD
+============================================================= */
+#gameBoardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*margin-top: 2rem;*/
+  padding: 1rem;
+}
+
+#gameBoard {
+  width: 24rem;
+}
+
+/*  ============================================================
+  ================= ANIMATION
+============================================================= */
+.rotateBoard {
+  animation-name: fade, shadow;
+  animation-duration: 2.5s, 4s;
+  animation-delay: 1.5s, 0s;
+  /*animation-timing-function: ease-in;*/
+  transition: transform 2s ease-in-out 1.3s;
+  transform: rotate(180deg);
+}
+@keyframes shadow {
+  /*35% {box-shadow: 0rem 0rem 1rem .1rem; }*/
+  70% {
+    box-shadow: 0rem 0rem 2.2rem 0.1rem;
+  }
+  80% {
+    box-shadow: 0rem 0rem 2rem 0.1rem;
+  }
+  100% {
+    box-shadow: none;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.05;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.reverseRotate {
+  animation-name: reverseFade;
+  animation-duration: 2.5s;
+  animation-delay: 1.5s;
+  transition: transform 2s ease-in-out 1.3s;
+  transform: rotate(0deg);
+}
+
+@keyframes reverseFade {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.05;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.testClass {
+  transform: rotate(90deg);
+}
+.rotatePiece {
+  transition: transform 2s ease-in-out 1.3s;
+  transform: rotate(180deg);
+}
+
+.reverseRotatePieces {
+  transition: transform 2s ease-in-out 1.3s;
+  transform: rotate(0deg);
+}
+
+.animateFadeIn {
+  animation-name: fadeinPiece;
+  animation-duration: 0.4s;
+  animation-timing-function: linear;
+}
+
+@keyframes fadeinPiece {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*  ============================================================
+  ================= UTILITY CLASSES
+============================================================= */
+.selected {
+  background-color: red;
+}
+.noBorder {
+  border: none;
+}

@@ -1,0 +1,202 @@
+/*  =============================================
+  ================= Setup
+============================================== */
+:root {
+  font-size: 1rem;
+}
+
+html,
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+/*  =============================================
+  ================= CONTAINER
+============================================== */
+#mainContainer {
+  width: 100%;
+  height: 100%;
+  padding: 0 0.5rem;
+  padding-bottom: 3rem;
+  margin: auto;
+}
+
+button:hover {
+  transform: scale(1.03);
+}
+
+button:active {
+  transform: scale(1);
+}
+
+/*  =============================================
+  ================= INSTRUCTIONS
+============================================== */
+
+#flagImg {
+  border: 1px solid black;
+  width: 4rem;
+  height: 2rem;
+  background-repeat: no-repeat;
+  background-position: 1.8rem 0.1rem;
+  background-image: url(../../../../public/images/minesweeper/flag.png);
+}
+
+/*  =============================================
+  ================= Utility
+============================================== */
+.redBomb {
+  background-image: url(../../../../public/images/minesweeper/xBomb.png);
+  background-position: 0.2rem 0rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/*  =============================================
+  ================= Media Queries
+============================================== */
+@media screen and (max-width: 1200px) {
+  .dimensions {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .one {
+    background-position: 0.6rem 0rem;
+  }
+  .two {
+    background-position: -0.8rem 0rem;
+  }
+  .three {
+    background-position: -2.2rem -0.1rem;
+  }
+  .four {
+    background-position: -3.8rem -0.1rem;
+  }
+  .five {
+    background-position: -6.25rem -0.1rem;
+  }
+  .six {
+    background-position: -7.8rem 0.1rem;
+  }
+  .seven {
+    background-position: -9.25rem -0.1rem;
+  }
+  .eight {
+    background-position: -10.7rem 0.1rem;
+  }
+  .empty {
+    background-position: 2.6rem 0rem;
+  }
+  .flag {
+    background-position: -12.8rem 0.25rem;
+  }
+  .mine {
+    background-position: -15.2rem 0rem;
+  }
+  .redBomb {
+    background-position: 0.2rem 0rem;
+  }
+  #gameStatus {
+    /* top: 8rem;  */
+    font-size: 8rem;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .dimensions {
+    width: 1.7rem;
+    height: 1.7rem;
+  }
+
+  .one {
+    background-position: 0.4rem 0;
+  }
+  .two {
+    background-position: -0.9rem -0.1rem;
+  }
+  .three {
+    background-position: -2.4rem -0.2rem;
+  }
+  .four {
+    background-position: -4rem -0.2rem;
+  }
+  .five {
+    background-position: -6.4rem -0.2rem;
+  }
+  .six {
+    background-position: -7.97rem 0;
+  }
+  .seven {
+    background-position: -9.4rem -0.2rem;
+  }
+  .eight {
+    background-position: -10.9rem 0;
+  }
+
+  .flag {
+    background-position: -12.9rem 0.15rem;
+  }
+
+  .mine {
+    background-position: -15.3rem -0.1rem;
+  }
+  .redBomb {
+    background-position: 0.1rem 0rem;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .dimensions {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .one {
+    background-position: 0.4rem -0.2rem;
+  }
+  .two {
+    background-position: -1rem -0.2rem;
+  }
+  .three {
+    background-position: -2.5rem -0.3rem;
+  }
+  .four {
+    background-position: -4rem -0.3rem;
+  }
+  .five {
+    background-position: -6.5rem -0.3rem;
+  }
+  .six {
+    background-position: -8.04rem -0.05rem;
+  }
+  .seven {
+    background-position: -9.5rem -0.3rem;
+  }
+  .eight {
+    background-position: -11rem -0.05rem;
+  }
+
+  .flag {
+    background-position: -13.05rem 0.05rem;
+  }
+
+  .mine {
+    background-position: -15.4rem -0.2rem;
+  }
+  .redBomb {
+    background-position: 0.1rem 0rem;
+  }
+}

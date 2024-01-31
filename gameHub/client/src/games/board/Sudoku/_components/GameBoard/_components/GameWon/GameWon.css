@@ -1,0 +1,19 @@
+.winContainer {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: lightskyblue;
+  padding: 2rem 3rem;
+  border-radius: 0.3rem;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: space-around;
+}
+
+.winHeading {
+  min-width: max-content;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,21 @@
+/* .gameContainer {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.statContainer {
+  position: relative;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.2rem;
+  box-shadow: ghostwhite 0px 0.5px 2px 1px;
+  box-shadow: var(--second-triad-color) 0px 0.5px 2px 1px;
+}
+
+#timerContainer {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+} */

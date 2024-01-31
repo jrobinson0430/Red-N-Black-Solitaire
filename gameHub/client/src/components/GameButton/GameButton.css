@@ -1,0 +1,17 @@
+.btnStyles {
+  border: 1px solid black;
+  width: 7rem;
+  margin-right: 0.5rem;
+  border-radius: 0.2rem;
+  color: white;
+  /* eases the trasition to hover and back */
+  transition: all 0.18s ease-in-out;
+  background-color: rgb(52, 113, 167);
+}
+
+.btnStyles:hover {
+  color: black;
+}
+.btnStyles:active {
+  color: lightslategray;
+}

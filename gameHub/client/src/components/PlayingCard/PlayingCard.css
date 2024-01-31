@@ -1,0 +1,287 @@
+/*  =============================================
+  ================= Containers
+============================================== */
+.cardContainer {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: black 0px 0px 2px 0px;
+  width: 5.1rem;
+  height: 6.8rem;
+  background-color: white;
+  border-radius: 0.22rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.rowDimensions {
+  position: relative;
+  width: 7.5%;
+  height: 9rem;
+}
+
+.pile {
+  width: 4.97rem;
+  height: 6.6rem;
+}
+
+/*  =============================================
+  ================= Card Images
+============================================== */
+.spade-ace {
+  background-image: url(../../../public/images/cards/spade-ace.png);
+}
+.spade-two {
+  background-image: url(../../../public/images/cards/spade-two.png);
+}
+.spade-three {
+  background-image: url(../../../public/images/cards/spade-three.png);
+}
+.spade-four {
+  background-image: url(../../../public/images/cards/spade-four.png);
+}
+.spade-five {
+  background-image: url(../../../public/images/cards/spade-five.png);
+}
+.spade-six {
+  background-image: url(../../../public/images/cards/spade-six.png);
+}
+.spade-seven {
+  background-image: url(../../../public/images/cards/spade-seven.png);
+}
+.spade-eight {
+  background-image: url(../../../public/images/cards/spade-eight.png);
+}
+.spade-nine {
+  background-image: url(../../../public/images/cards/spade-nine.png);
+}
+.spade-ten {
+  background-image: url(../../../public/images/cards/spade-ten.png);
+}
+.spade-jack {
+  background-image: url(../../../public/images/cards/spade-jack.png);
+}
+.spade-queen {
+  background-image: url(../../../public/images/cards/spade-queen.png);
+}
+.spade-king {
+  background-image: url(../../../public/images/cards/spade-king.png);
+}
+
+.heart-ace {
+  background-image: url(../../../public/images/cards/heart-ace.png);
+}
+.heart-two {
+  background-image: url(../../../public/images/cards/heart-two.png);
+}
+.heart-three {
+  background-image: url(../../../public/images/cards/heart-three.png);
+}
+.heart-four {
+  background-image: url(../../../public/images/cards/heart-four.png);
+}
+.heart-five {
+  background-image: url(../../../public/images/cards/heart-five.png);
+}
+.heart-six {
+  background-image: url(../../../public/images/cards/heart-six.png);
+}
+.heart-seven {
+  background-image: url(../../../public/images/cards/heart-seven.png);
+}
+.heart-eight {
+  background-image: url(../../../public/images/cards/heart-eight.png);
+}
+.heart-nine {
+  background-image: url(../../../public/images/cards/heart-nine.png);
+}
+.heart-ten {
+  background-image: url(../../../public/images/cards/heart-ten.png);
+}
+.heart-jack {
+  background-image: url(../../../public/images/cards/heart-jack.png);
+}
+.heart-queen {
+  background-image: url(../../../public/images/cards/heart-queen.png);
+}
+.heart-king {
+  background-image: url(../../../public/images/cards/heart-king.png);
+}
+
+.club-ace {
+  background-image: url(../../../public/images/cards/club-ace.png);
+}
+.club-two {
+  background-image: url(../../../public/images/cards/club-two.png);
+}
+.club-three {
+  background-image: url(../../../public/images/cards/club-three.png);
+}
+.club-four {
+  background-image: url(../../../public/images/cards/club-four.png);
+}
+.club-five {
+  background-image: url(../../../public/images/cards/club-five.png);
+}
+.club-six {
+  background-image: url(../../../public/images/cards/club-six.png);
+}
+.club-seven {
+  background-image: url(../../../public/images/cards/club-seven.png);
+}
+.club-eight {
+  background-image: url(../../../public/images/cards/club-eight.png);
+}
+.club-nine {
+  background-image: url(../../../public/images/cards/club-nine.png);
+}
+.club-ten {
+  background-image: url(../../../public/images/cards/club-ten.png);
+}
+.club-jack {
+  background-image: url(../../../public/images/cards/club-jack.png);
+}
+.club-queen {
+  background-image: url(../../../public/images/cards/club-queen.png);
+}
+.club-king {
+  background-image: url(../../../public/images/cards/club-king.png);
+}
+
+.diamond-ace {
+  background-image: url(../../../public/images/cards/diamond-ace.png);
+}
+.diamond-two {
+  background-image: url(../../../public/images/cards/diamond-two.png);
+}
+.diamond-three {
+  background-image: url(../../../public/images/cards/diamond-three.png);
+}
+.diamond-four {
+  background-image: url(../../../public/images/cards/diamond-four.png);
+}
+.diamond-five {
+  background-image: url(../../../public/images/cards/diamond-five.png);
+}
+.diamond-six {
+  background-image: url(../../../public/images/cards/diamond-six.png);
+}
+.diamond-seven {
+  background-image: url(../../../public/images/cards/diamond-seven.png);
+}
+.diamond-eight {
+  background-image: url(../../../public/images/cards/diamond-eight.png);
+}
+.diamond-nine {
+  background-image: url(../../../public/images/cards/diamond-nine.png);
+}
+.diamond-ten {
+  background-image: url(../../../public/images/cards/diamond-ten.png);
+}
+.diamond-jack {
+  background-image: url(../../../public/images/cards/diamond-jack.png);
+}
+.diamond-queen {
+  background-image: url(../../../public/images/cards/diamond-queen.png);
+}
+.diamond-king {
+  background-image: url(../../../public/images/cards/diamond-king.png);
+}
+
+/*  =============================================
+  ================= Card Backs
+============================================== */
+.cardBack {
+  background-image: none;
+  background-color: yellow;
+}
+
+.snowman {
+  background-color: yellow;
+  background-image: none;
+  /* workaround since image removed */
+  /* background-image: url(../../../public/images/cardDecks/snowManDeck.png); */
+  background-position: 0 0;
+}
+.science {
+  background-color: orange;
+  border: 1px solid;
+  /* background-image: url(../../../public/images/cardDecks/scienceDeck.png); */
+  background-position: 0 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/*  =============================================
+  ================= misc.
+============================================== */
+.empty-empty {
+  background-image: none;
+  background-color: transparent;
+  border: 1px solid;
+}
+
+.blank-blank {
+  background-image: none;
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+}
+
+/*  =============================================
+  ================= media queries
+============================================== */
+@media screen and (max-width: 599px) {
+  .cardContainer,
+  .pile {
+    width: 3.6rem;
+    height: 4.8rem;
+  }
+  .rowDimensions {
+    width: 12.3%;
+    height: 6rem;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 720px) {
+  .cardContainer {
+    width: 4.1rem;
+    height: 5.5rem;
+  }
+
+  .rowDimensions {
+    width: 15%;
+    height: 7rem;
+  }
+}
+
+@media screen and (min-width: 721px) and (max-width: 900px) {
+  .cardContainer,
+  .pile {
+    width: 4rem;
+    height: 5.4rem;
+  }
+
+  .rowDimensions {
+    width: 14%;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+  .rowDimensions {
+    width: 13%;
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .rowDimensions {
+    width: 8%;
+  }
+}
+
+@media screen and (min-width: 1401px) and (max-width: 1500px) {
+  .rowDimensions {
+    width: 7%;
+  }
+}
